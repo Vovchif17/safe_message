@@ -15,6 +15,8 @@ require 'aes'
 class Message < ApplicationRecord
   has_secure_password
 
+  scope :not_viewed, -> { where(viewed: false) }
+
   validates :text, presence: true
   validates :password, presence: true
 

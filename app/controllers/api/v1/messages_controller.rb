@@ -15,7 +15,6 @@ class Api::V1::MessagesController < Api::V1::ApiController
 
   def view_decrypted
     render json: resource, password: params[:password]
-    resource.update(viewed: true)
   end
 
   private

@@ -1,0 +1,888 @@
+Started GET "/" for 127.0.0.1 at 2020-11-17 08:34:16 +0100
+  
+PG::ConnectionBad (FATAL:  password authentication failed for user "bbusk"
+FATAL:  password authentication failed for user "bbusk"
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-17 08:36:25 +0100
+  
+PG::ConnectionBad (FATAL:  password authentication failed for user "postgress"
+FATAL:  password authentication failed for user "postgress"
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-17 08:37:41 +0100
+  
+PG::ConnectionBad (FATAL:  password authentication failed for user "postgress"
+FATAL:  password authentication failed for user "postgress"
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-17 08:37:43 +0100
+  
+PG::ConnectionBad (FATAL:  password authentication failed for user "postgress"
+FATAL:  password authentication failed for user "postgress"
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-17 08:37:51 +0100
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "safe_messages_development" does not exist
+):
+  
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (350.8ms)[0m  [1m[35mCREATE DATABASE "safe_messages_development" ENCODING = 'unicode'[0m
+  [1m[35m (242.8ms)[0m  [1m[35mCREATE DATABASE "safe_messages_test" ENCODING = 'unicode'[0m
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6435827184297427455)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMessages (20201114165036)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "messages" ("id" bigserial primary key, "text" character varying, "uuid" character varying, "viewed" boolean DEFAULT FALSE, "password_digest" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201114165036"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-11-17 07:40:03.080612"], ["updated_at", "2020-11-17 07:40:03.080612"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(6435827184297427455)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2020-11-17 08:40:11 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.1ms | Allocations: 318)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 1598)
+
+
+Started GET "/message/" for 127.0.0.1 at 2020-11-17 08:40:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/message"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/messages/" for 127.0.0.1 at 2020-11-17 08:40:48 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/messages"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/messages/:uuid" for 127.0.0.1 at 2020-11-17 08:42:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/messages/:uuid"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-17 08:42:21 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.4ms | Allocations: 192)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 729)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-19 15:26:27 +0100
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.0ms | Allocations: 318)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 1598)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2020-11-19 15:26:27 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/messages/" for 127.0.0.1 at 2020-11-19 15:27:18 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/messages"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/messages/:uuid" for 127.0.0.1 at 2020-11-19 15:27:33 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/messages/:uuid"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/" for 127.0.0.1 at 2020-11-19 19:14:05 +0100
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/messages" for 127.0.0.1 at 2020-11-19 19:14:28 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/messages"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/messages" for 127.0.0.1 at 2020-11-19 19:14:49 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/messages"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-19 19:22:19 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.4ms | Allocations: 197)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 870)
+
+
+Started POST "/" for 127.0.0.1 at 2020-11-19 19:32:39 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/messages" for 127.0.0.1 at 2020-11-19 19:32:58 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/messages"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/api/v1/messages" for 127.0.0.1 at 2020-11-19 19:34:16 +0100
+Processing by Api::V1::MessagesController#create as JSON
+  Parameters: {"message"=>{"text"=>"TestText", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 7.4ms | Allocations: 5741)
+
+
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE "safe_messages_development" ENCODING = 'unicode'[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE DATABASE "safe_messages_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6435827184297427455)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6435827184297427455)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/v1/messages" for 127.0.0.1 at 2020-11-19 19:36:08 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::MessagesController#create as JSON
+  Parameters: {"message"=>{"text"=>"TestText", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 2.7ms | Allocations: 5724)
+
+
+Started POST "/api/v1/messages" for 127.0.0.1 at 2020-11-19 19:37:38 +0100
+Processing by Api::V1::MessagesController#create as JSON
+  Parameters: {"message"=>{"text"=>"TestText", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 256ms (ActiveRecord: 2.6ms | Allocations: 5471)
+
+
+  
+NoMethodError (undefined method `unpack' for nil:NilClass):
+  
+app/models/message.rb:31:in `encrypt!'
+app/controllers/api/v1/messages_controller.rb:9:in `create'
+Started GET "/" for 127.0.0.1 at 2020-11-19 19:41:07 +0100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vovch/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.5ms | Allocations: 318)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 1598)
+
+
+Started POST "/api/v1/messages" for 127.0.0.1 at 2020-11-19 19:41:12 +0100
+Processing by Api::V1::MessagesController#create as JSON
+  Parameters: {"message"=>{"text"=>"TestText", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/messages_controller.rb:9:in `create'
+  [1m[36mMessage Create (2.6ms)[0m  [1m[32mINSERT INTO "messages" ("text", "uuid", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["text", "CibgIOV60iyxtQ1+BggWZg==$R6vmQWzrJXTsecvTcQMgDA=="], ["uuid", "64b0762193e74ce3bddfc36b406582"], ["password_digest", "$2a$12$uZJEbk9OdmlT9d89Tn0HTenwiw5SxV8XPmAr0BwucBnxNaDCreckG"], ["created_at", "2020-11-19 18:41:12.754586"], ["updated_at", "2020-11-19 18:41:12.754586"]]
+  ↳ app/controllers/api/v1/messages_controller.rb:9:in `create'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/messages_controller.rb:9:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Completed 200 OK in 269ms (Views: 2.9ms | ActiveRecord: 10.2ms | Allocations: 8780)
+
+
+Started GET "/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:41:53 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/64b0762193e74ce3bddfc36b406582"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/messages/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:42:18 +0100
+Processing by Api::V1::MessagesController#show as JSON
+  Parameters: {"uuid"=>"64b0762193e74ce3bddfc36b406582"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (229.16ms)
+Completed 200 OK in 245ms (Views: 240.5ms | ActiveRecord: 0.9ms | Allocations: 3824)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:45:10 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (241.31ms)
+  [1m[36mCACHE Message Load (0.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+Completed 200 OK in 257ms (Views: 242.5ms | ActiveRecord: 0.4ms | Allocations: 4828)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:45:16 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (235.43ms)
+  [1m[36mCACHE Message Load (0.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+Completed 200 OK in 243ms (Views: 235.9ms | ActiveRecord: 0.4ms | Allocations: 1874)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:45:20 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (242.05ms)
+  [1m[36mCACHE Message Load (0.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+Completed 200 OK in 249ms (Views: 243.1ms | ActiveRecord: 0.3ms | Allocations: 1887)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:51:27 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (80944.84ms)
+  [1m[36mCACHE Message Load (0.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+Completed 200 OK in 80960ms (Views: 80946.5ms | ActiveRecord: 0.6ms | Allocations: 21994)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:53:30 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (242.78ms)
+Completed 500 Internal Server Error in 265ms (ActiveRecord: 4.1ms | Allocations: 6717)
+
+
+  
+NameError (undefined local variable or method `resource' for #<MessageSerializer:0x00007f2cc429df90>
+Did you mean?  rescue):
+  
+app/serializers/message_serializer.rb:19:in `block in <class:MessageSerializer>'
+app/controllers/api/v1/messages_controller.rb:17:in `view_decrypted'
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:53:44 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (224.35ms)
+Completed 200 OK in 236ms (Views: 225.4ms | ActiveRecord: 4.7ms | Allocations: 6183)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:53:54 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (232.82ms)
+Completed 200 OK in 235ms (Views: 233.5ms | ActiveRecord: 0.3ms | Allocations: 1443)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:54:39 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (237.64ms)
+Completed 422 Unprocessable Entity in 252ms (ActiveRecord: 4.7ms | Allocations: 6234)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Password can't be blank):
+  
+app/serializers/message_serializer.rb:18:in `block in <class:MessageSerializer>'
+app/controllers/api/v1/messages_controller.rb:17:in `view_decrypted'
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:55:34 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (1.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:28:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (233.23ms)
+Completed 422 Unprocessable Entity in 38362ms (ActiveRecord: 6.6ms | Allocations: 14905)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Password can't be blank):
+  
+app/serializers/message_serializer.rb:18:in `block in <class:MessageSerializer>'
+app/controllers/api/v1/messages_controller.rb:18:in `view_decrypted'
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:56:53 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (163932.41ms)
+Completed 422 Unprocessable Entity in 163942ms (ActiveRecord: 3.6ms | Allocations: 16375)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Password can't be blank):
+  
+app/serializers/message_serializer.rb:19:in `block in <class:MessageSerializer>'
+app/controllers/api/v1/messages_controller.rb:17:in `view_decrypted'
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:59:43 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:19:in `block in <class:MessageSerializer>'
+[active_model_serializers]   [1m[36mMessage Update (0.3ms)[0m  [1m[33mUPDATE "messages" SET "viewed" = $1, "password_digest" = $2, "updated_at" = $3 WHERE "messages"."id" = $4[0m  [["viewed", true], ["password_digest", "$2a$12$zWsbGZs8FCLoYsHBjoBT/.OXEF5vap78dlCMi.9NcTCMNCoOb3u7K"], ["updated_at", "2020-11-19 18:59:44.325701"], ["id", 1]]
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:19:in `block in <class:MessageSerializer>'
+[active_model_serializers]   [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:19:in `block in <class:MessageSerializer>'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (470.42ms)
+Completed 200 OK in 480ms (Views: 469.8ms | ActiveRecord: 7.3ms | Allocations: 8272)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 19:59:46 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (0.3ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms | Allocations: 862)
+
+
+  
+LocalJumpError (unexpected return):
+  
+app/serializers/message_serializer.rb:15:in `block in <class:MessageSerializer>'
+app/controllers/api/v1/messages_controller.rb:17:in `view_decrypted'
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 20:00:28 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (0.43ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 2.9ms | Allocations: 5530)
+
+
+  
+LocalJumpError (unexpected return):
+  
+app/serializers/message_serializer.rb:15:in `block in <class:MessageSerializer>'
+app/controllers/api/v1/messages_controller.rb:17:in `view_decrypted'
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 20:02:20 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers]   [1m[36mMessage Update (0.6ms)[0m  [1m[33mUPDATE "messages" SET "password_digest" = $1, "updated_at" = $2 WHERE "messages"."id" = $3[0m  [["password_digest", "$2a$12$C3NPUNKO4y5/T7KS.2wnkO/nmlxhI94tHtZv3FOJBYTwbz3gAT6Ku"], ["updated_at", "2020-11-19 19:02:20.978772"], ["id", 1]]
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers]   [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (487.31ms)
+Completed 200 OK in 500ms (Views: 488.1ms | ActiveRecord: 4.9ms | Allocations: 8196)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 20:02:25 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers]   [1m[36mMessage Update (0.4ms)[0m  [1m[33mUPDATE "messages" SET "password_digest" = $1, "updated_at" = $2 WHERE "messages"."id" = $3[0m  [["password_digest", "$2a$12$8iuuSpoGD8LSUtHkDYDbkuqHYvPaI4OwR3K/cWB44kdCIjB7IpkS2"], ["updated_at", "2020-11-19 19:02:25.648499"], ["id", 1]]
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers]   [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (465.97ms)
+Completed 200 OK in 469ms (Views: 464.7ms | ActiveRecord: 2.3ms | Allocations: 3456)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 20:02:27 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers]   [1m[36mMessage Update (0.5ms)[0m  [1m[33mUPDATE "messages" SET "password_digest" = $1, "updated_at" = $2 WHERE "messages"."id" = $3[0m  [["password_digest", "$2a$12$2OFpUaoYng2j0Xay6GeJ8.C36UJQoF8yWKBjijEHM//dsPF7uiy6i"], ["updated_at", "2020-11-19 19:02:27.567808"], ["id", 1]]
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers]   [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   ↳ app/serializers/message_serializer.rb:17:in `block in <class:MessageSerializer>'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (426.51ms)
+Completed 200 OK in 429ms (Views: 425.3ms | ActiveRecord: 2.0ms | Allocations: 3455)
+
+
+Started POST "/api/v1/view_decrypted/64b0762193e74ce3bddfc36b406582" for 127.0.0.1 at 2020-11-19 20:03:08 +0100
+Processing by Api::V1::MessagesController#view_decrypted as JSON
+  Parameters: {"password"=>"[FILTERED]", "uuid"=>"64b0762193e74ce3bddfc36b406582", "message"=>{}}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."uuid" = $1 LIMIT $2[0m  [["uuid", "64b0762193e74ce3bddfc36b406582"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:27:in `resource'
+[active_model_serializers] Rendered MessageSerializer with ActiveModelSerializers::Adapter::Attributes (0.26ms)
+Completed 200 OK in 11ms (Views: 1.9ms | ActiveRecord: 2.5ms | Allocations: 5433)
+
+

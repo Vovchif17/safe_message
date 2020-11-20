@@ -12,9 +12,11 @@
 #
 class MessageSerializer < ActiveModel::Serializer
   attribute :text do
-    return 'You already requested this message' if object.viewed?
 
-    if object.authenticate(instance_options[:password])
+    if object.viewed?
+    'You already requested this message'
+    elsif object.authenticate(instance_options[:password])
+      object.update!(viewed: true, password:instance_options[:password])
       object.decrypted_message
     else
       object.text
